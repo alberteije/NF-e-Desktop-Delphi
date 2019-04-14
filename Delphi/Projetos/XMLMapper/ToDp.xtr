@@ -1,0 +1,788 @@
+<XmlTransformation Version="1.0"><Transform Direction="ToCds" DataEncoding="utf-8"><SelectEach dest="DATAPACKET\ROWDATA\ROW" from="\NFe\infNFe"><Select dest="@Id" from="@Id"/><Select dest="@versao" from="@versao"/><Select dest="@cUF" from="\ide\cUF"/><Select dest="@cNF" from="\ide\cNF"/><Select dest="@natOp" from="\ide\natOp"/><Select dest="@indPag" from="\ide\indPag"/><Select dest="@mod" from="\ide\mod"/><Select dest="@serie" from="\ide\serie"/><Select dest="@nNF" from="\ide\nNF"/><Select dest="@dEmi" from="\ide\dEmi"/><Select dest="@dSaiEnt" from="\ide\dSaiEnt"/><Select dest="@tpNF" from="\ide\tpNF"/><Select dest="@cMunFG" from="\ide\cMunFG"/><Select dest="@tpImp" from="\ide\tpImp"/><Select dest="@tpEmis" from="\ide\tpEmis"/><Select dest="@cDV" from="\ide\cDV"/><Select dest="@tpAmb" from="\ide\tpAmb"/><Select dest="@finNFe" from="\ide\finNFe"/><Select dest="@procEmi" from="\ide\procEmi"/><Select dest="@verProc" from="\ide\verProc"/><Select dest="@emit_CNPJ" from="\emit\CNPJ"/><Select dest="@emit_xNome" from="\emit\xNome"/><Select dest="@xFant" from="\emit\xFant"/><Select dest="@enderEmit_xLgr" from="\emit\enderEmit\xLgr"/><Select dest="@enderEmit_nro" from="\emit\enderEmit\nro"/><Select dest="@enderEmit_xCpl" from="\emit\enderEmit\xCpl"/><Select dest="@enderEmit_xBairro" from="\emit\enderEmit\xBairro"/><Select dest="@enderEmit_cMun" from="\emit\enderEmit\cMun"/><Select dest="@enderEmit_xMun" from="\emit\enderEmit\xMun"/><Select dest="@enderEmit_UF" from="\emit\enderEmit\UF"/><Select dest="@enderEmit_CEP" from="\emit\enderEmit\CEP"/><Select dest="@enderEmit_cPais" from="\emit\enderEmit\cPais"/><Select dest="@enderEmit_xPais" from="\emit\enderEmit\xPais"/><Select dest="@enderEmit_fone" from="\emit\enderEmit\fone"/><Select dest="@emit_IE" from="\emit\IE"/><Select dest="@dest_CNPJ" from="\dest\CNPJ"/><Select dest="@dest_xNome" from="\dest\xNome"/><Select dest="@enderDest_xLgr" from="\dest\enderDest\xLgr"/><Select dest="@enderDest_nro" from="\dest\enderDest\nro"/><Select dest="@enderDest_xCpl" from="\dest\enderDest\xCpl"/><Select dest="@enderDest_xBairro" from="\dest\enderDest\xBairro"/><Select dest="@enderDest_cMun" from="\dest\enderDest\cMun"/><Select dest="@enderDest_xMun" from="\dest\enderDest\xMun"/><Select dest="@enderDest_UF" from="\dest\enderDest\UF"/><Select dest="@enderDest_CEP" from="\dest\enderDest\CEP"/><Select dest="@enderDest_cPais" from="\dest\enderDest\cPais"/><Select dest="@enderDest_xPais" from="\dest\enderDest\xPais"/><Select dest="@enderDest_fone" from="\dest\enderDest\fone"/><Select dest="@dest_IE" from="\dest\IE"/><Select dest="@retirada_CNPJ" from="\retirada\CNPJ"/><Select dest="@retirada_xLgr" from="\retirada\xLgr"/><Select dest="@retirada_nro" from="\retirada\nro"/><Select dest="@retirada_xCpl" from="\retirada\xCpl"/><Select dest="@retirada_xBairro" from="\retirada\xBairro"/><Select dest="@retirada_cMun" from="\retirada\cMun"/><Select dest="@retirada_xMun" from="\retirada\xMun"/><Select dest="@retirada_UF" from="\retirada\UF"/><Select dest="@entrega_CNPJ" from="\entrega\CNPJ"/><Select dest="@entrega_xLgr" from="\entrega\xLgr"/><Select dest="@entrega_nro" from="\entrega\nro"/><Select dest="@entrega_xCpl" from="\entrega\xCpl"/><Select dest="@entrega_xBairro" from="\entrega\xBairro"/><Select dest="@entrega_cMun" from="\entrega\cMun"/><Select dest="@entrega_xMun" from="\entrega\xMun"/><Select dest="@entrega_UF" from="\entrega\UF"/><Select dest="@vBC" from="\total\ICMSTot\vBC"/><Select dest="@vICMS" from="\total\ICMSTot\vICMS"/><Select dest="@vBCST" from="\total\ICMSTot\vBCST"/><Select dest="@vST" from="\total\ICMSTot\vST"/><Select dest="@vProd" from="\total\ICMSTot\vProd"/><Select dest="@vFrete" from="\total\ICMSTot\vFrete"/><Select dest="@vSeg" from="\total\ICMSTot\vSeg"/><Select dest="@vDesc" from="\total\ICMSTot\vDesc"/><Select dest="@vII" from="\total\ICMSTot\vII"/><Select dest="@vIPI" from="\total\ICMSTot\vIPI"/><Select dest="@vPIS" from="\total\ICMSTot\vPIS"/><Select dest="@vCOFINS" from="\total\ICMSTot\vCOFINS"/><Select dest="@vOutro" from="\total\ICMSTot\vOutro"/><Select dest="@vNF" from="\total\ICMSTot\vNF"/><Select dest="@modFrete" from="\transp\modFrete"/><Select dest="@CNPJ" from="\transp\transporta\CNPJ"/><Select dest="@xNome" from="\transp\transporta\xNome"/><Select dest="@IE" from="\transp\transporta\IE"/><Select dest="@xEnder" from="\transp\transporta\xEnder"/><Select dest="@transporta_xMun" from="\transp\transporta\xMun"/><Select dest="@transporta_UF" from="\transp\transporta\UF"/><Select dest="@veicTransp_placa" from="\transp\veicTransp\placa"/><Select dest="@veicTransp_UF" from="\transp\veicTransp\UF"/><Select dest="@veicTransp_RNTC" from="\transp\veicTransp\RNTC"/><Select dest="@reboque_placa" from="\transp\reboque\placa"/><Select dest="@reboque_UF" from="\transp\reboque\UF"/><Select dest="@reboque_RNTC" from="\transp\reboque\RNTC"/><Select dest="@qVol" from="\transp\vol\qVol"/><Select dest="@esp" from="\transp\vol\esp"/><Select dest="@marca" from="\transp\vol\marca"/><Select dest="@nVol" from="\transp\vol\nVol"/><Select dest="@pesoL" from="\transp\vol\pesoL"/><Select dest="@pesoB" from="\transp\vol\pesoB"/><Select dest="@nLacre" from="\transp\vol\lacres\nLacre"/><Select dest="@infAdFisco" from="\infAdic\infAdFisco"/><SelectEach dest="det\ROWdet" from="\det"><Select dest="@nItem" from="@nItem"/><Select dest="@cProd" from="\prod\cProd"/><Select dest="@cEAN" from="\prod\cEAN"/><Select dest="@xProd" from="\prod\xProd"/><Select dest="@CFOP" from="\prod\CFOP"/><Select dest="@uCom" from="\prod\uCom"/><Select dest="@qCom" from="\prod\qCom"/><Select dest="@vUnCom" from="\prod\vUnCom"/><Select dest="@vProd" from="\prod\vProd"/><Select dest="@cEANTrib" from="\prod\cEANTrib"/><Select dest="@uTrib" from="\prod\uTrib"/><Select dest="@qTrib" from="\prod\qTrib"/><Select dest="@vUnTrib" from="\prod\vUnTrib"/><Select dest="@orig" from="\imposto\ICMS\ICMS00\orig"/><Select dest="@ICMS00_CST" from="\imposto\ICMS\ICMS00\CST"/><Select dest="@modBC" from="\imposto\ICMS\ICMS00\modBC"/><Select dest="@ICMS00_vBC" from="\imposto\ICMS\ICMS00\vBC"/><Select dest="@pICMS" from="\imposto\ICMS\ICMS00\pICMS"/><Select dest="@vICMS" from="\imposto\ICMS\ICMS00\vICMS"/><Select dest="@PISAliq_CST" from="\imposto\PIS\PISAliq\CST"/><Select dest="@PISAliq_vBC" from="\imposto\PIS\PISAliq\vBC"/><Select dest="@pPIS" from="\imposto\PIS\PISAliq\pPIS"/><Select dest="@vPIS" from="\imposto\PIS\PISAliq\vPIS"/><Select dest="@COFINSAliq_CST" from="\imposto\COFINS\COFINSAliq\CST"/><Select dest="@COFINSAliq_vBC" from="\imposto\COFINS\COFINSAliq\vBC"/><Select dest="@pCOFINS" from="\imposto\COFINS\COFINSAliq\pCOFINS"/><Select dest="@vCOFINS" from="\imposto\COFINS\COFINSAliq\vCOFINS"/></SelectEach></SelectEach></Transform><XmlSchema RootName="NFe"><![CDATA[<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="NFe" type="NFeType"/>
+  <xs:complexType name="NFeType">
+    <xs:sequence>
+      <xs:element name="infNFe" type="infNFeType"/>
+    </xs:sequence>
+    <xs:attribute name="xmlns" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="infNFe" type="infNFeType"/>
+  <xs:complexType name="infNFeType">
+    <xs:sequence>
+      <xs:element name="ide" type="ideType"/>
+      <xs:element name="emit" type="emitType"/>
+      <xs:element name="dest" type="destType"/>
+      <xs:element name="retirada" type="retiradaType"/>
+      <xs:element name="entrega" type="entregaType"/>
+      <xs:element name="det" type="detType" minOccurs="0" maxOccurs="unbounded"/>
+      <xs:element name="total" type="totalType"/>
+      <xs:element name="transp" type="transpType"/>
+      <xs:element name="infAdic" type="infAdicType"/>
+    </xs:sequence>
+    <xs:attribute name="Id" type="xs:string"/>
+    <xs:attribute name="versao" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="ide" type="ideType"/>
+  <xs:complexType name="ideType">
+    <xs:sequence>
+      <xs:element name="cUF" type="cUFType"/>
+      <xs:element name="cNF" type="cNFType"/>
+      <xs:element name="natOp" type="natOpType"/>
+      <xs:element name="indPag" type="indPagType"/>
+      <xs:element name="mod" type="modType"/>
+      <xs:element name="serie" type="serieType"/>
+      <xs:element name="nNF" type="nNFType"/>
+      <xs:element name="dEmi" type="dEmiType"/>
+      <xs:element name="dSaiEnt" type="dSaiEntType"/>
+      <xs:element name="tpNF" type="tpNFType"/>
+      <xs:element name="cMunFG" type="cMunFGType"/>
+      <xs:element name="tpImp" type="tpImpType"/>
+      <xs:element name="tpEmis" type="tpEmisType"/>
+      <xs:element name="cDV" type="cDVType"/>
+      <xs:element name="tpAmb" type="tpAmbType"/>
+      <xs:element name="finNFe" type="finNFeType"/>
+      <xs:element name="procEmi" type="procEmiType"/>
+      <xs:element name="verProc" type="verProcType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="cUF" type="cUFType"/>
+  <xs:simpleType name="cUFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cNF" type="cNFType"/>
+  <xs:simpleType name="cNFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="natOp" type="natOpType"/>
+  <xs:simpleType name="natOpType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="indPag" type="indPagType"/>
+  <xs:simpleType name="indPagType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="mod" type="modType"/>
+  <xs:simpleType name="modType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="serie" type="serieType"/>
+  <xs:simpleType name="serieType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="nNF" type="nNFType"/>
+  <xs:simpleType name="nNFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="dEmi" type="dEmiType"/>
+  <xs:simpleType name="dEmiType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="dSaiEnt" type="dSaiEntType"/>
+  <xs:simpleType name="dSaiEntType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="tpNF" type="tpNFType"/>
+  <xs:simpleType name="tpNFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cMunFG" type="cMunFGType"/>
+  <xs:simpleType name="cMunFGType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="tpImp" type="tpImpType"/>
+  <xs:simpleType name="tpImpType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="tpEmis" type="tpEmisType"/>
+  <xs:simpleType name="tpEmisType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cDV" type="cDVType"/>
+  <xs:simpleType name="cDVType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="tpAmb" type="tpAmbType"/>
+  <xs:simpleType name="tpAmbType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="finNFe" type="finNFeType"/>
+  <xs:simpleType name="finNFeType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="procEmi" type="procEmiType"/>
+  <xs:simpleType name="procEmiType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="verProc" type="verProcType"/>
+  <xs:simpleType name="verProcType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="emit" type="emitType"/>
+  <xs:complexType name="emitType">
+    <xs:sequence>
+      <xs:element name="CNPJ" type="CNPJType"/>
+      <xs:element name="xNome" type="xNomeType"/>
+      <xs:element name="xFant" type="xFantType"/>
+      <xs:element name="enderEmit" type="enderEmitType"/>
+      <xs:element name="IE" type="IEType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CNPJ" type="CNPJType"/>
+  <xs:simpleType name="CNPJType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xNome" type="xNomeType"/>
+  <xs:simpleType name="xNomeType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xFant" type="xFantType"/>
+  <xs:simpleType name="xFantType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="enderEmit" type="enderEmitType"/>
+  <xs:complexType name="enderEmitType">
+    <xs:sequence>
+      <xs:element name="xLgr" type="xLgrType"/>
+      <xs:element name="nro" type="nroType"/>
+      <xs:element name="xCpl" type="xCplType"/>
+      <xs:element name="xBairro" type="xBairroType"/>
+      <xs:element name="cMun" type="cMunType"/>
+      <xs:element name="xMun" type="xMunType"/>
+      <xs:element name="UF" type="UFType"/>
+      <xs:element name="CEP" type="CEPType"/>
+      <xs:element name="cPais" type="cPaisType"/>
+      <xs:element name="xPais" type="xPaisType"/>
+      <xs:element name="fone" type="foneType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="xLgr" type="xLgrType"/>
+  <xs:simpleType name="xLgrType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="nro" type="nroType"/>
+  <xs:simpleType name="nroType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xCpl" type="xCplType"/>
+  <xs:simpleType name="xCplType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xBairro" type="xBairroType"/>
+  <xs:simpleType name="xBairroType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cMun" type="cMunType"/>
+  <xs:simpleType name="cMunType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xMun" type="xMunType"/>
+  <xs:simpleType name="xMunType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="UF" type="UFType"/>
+  <xs:simpleType name="UFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="CEP" type="CEPType"/>
+  <xs:simpleType name="CEPType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cPais" type="cPaisType"/>
+  <xs:simpleType name="cPaisType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xPais" type="xPaisType"/>
+  <xs:simpleType name="xPaisType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="fone" type="foneType"/>
+  <xs:simpleType name="foneType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="IE" type="IEType"/>
+  <xs:simpleType name="IEType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="dest" type="destType"/>
+  <xs:complexType name="destType">
+    <xs:sequence>
+      <xs:element name="CNPJ" type="CNPJType"/>
+      <xs:element name="xNome" type="xNomeType"/>
+      <xs:element name="enderDest" type="enderDestType"/>
+      <xs:element name="IE" type="IEType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CNPJ" type="CNPJType"/>
+  <xs:simpleType name="CNPJType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xNome" type="xNomeType"/>
+  <xs:simpleType name="xNomeType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="enderDest" type="enderDestType"/>
+  <xs:complexType name="enderDestType">
+    <xs:sequence>
+      <xs:element name="xLgr" type="xLgrType"/>
+      <xs:element name="nro" type="nroType"/>
+      <xs:element name="xCpl" type="xCplType"/>
+      <xs:element name="xBairro" type="xBairroType"/>
+      <xs:element name="cMun" type="cMunType"/>
+      <xs:element name="xMun" type="xMunType"/>
+      <xs:element name="UF" type="UFType"/>
+      <xs:element name="CEP" type="CEPType"/>
+      <xs:element name="cPais" type="cPaisType"/>
+      <xs:element name="xPais" type="xPaisType"/>
+      <xs:element name="fone" type="foneType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="xLgr" type="xLgrType"/>
+  <xs:simpleType name="xLgrType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="nro" type="nroType"/>
+  <xs:simpleType name="nroType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xCpl" type="xCplType"/>
+  <xs:simpleType name="xCplType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xBairro" type="xBairroType"/>
+  <xs:simpleType name="xBairroType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cMun" type="cMunType"/>
+  <xs:simpleType name="cMunType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xMun" type="xMunType"/>
+  <xs:simpleType name="xMunType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="UF" type="UFType"/>
+  <xs:simpleType name="UFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="CEP" type="CEPType"/>
+  <xs:simpleType name="CEPType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cPais" type="cPaisType"/>
+  <xs:simpleType name="cPaisType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xPais" type="xPaisType"/>
+  <xs:simpleType name="xPaisType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="fone" type="foneType"/>
+  <xs:simpleType name="foneType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="IE" type="IEType"/>
+  <xs:simpleType name="IEType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="retirada" type="retiradaType"/>
+  <xs:complexType name="retiradaType">
+    <xs:sequence>
+      <xs:element name="CNPJ" type="CNPJType"/>
+      <xs:element name="xLgr" type="xLgrType"/>
+      <xs:element name="nro" type="nroType"/>
+      <xs:element name="xCpl" type="xCplType"/>
+      <xs:element name="xBairro" type="xBairroType"/>
+      <xs:element name="cMun" type="cMunType"/>
+      <xs:element name="xMun" type="xMunType"/>
+      <xs:element name="UF" type="UFType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CNPJ" type="CNPJType"/>
+  <xs:simpleType name="CNPJType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xLgr" type="xLgrType"/>
+  <xs:simpleType name="xLgrType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="nro" type="nroType"/>
+  <xs:simpleType name="nroType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xCpl" type="xCplType"/>
+  <xs:simpleType name="xCplType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xBairro" type="xBairroType"/>
+  <xs:simpleType name="xBairroType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cMun" type="cMunType"/>
+  <xs:simpleType name="cMunType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xMun" type="xMunType"/>
+  <xs:simpleType name="xMunType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="UF" type="UFType"/>
+  <xs:simpleType name="UFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="entrega" type="entregaType"/>
+  <xs:complexType name="entregaType">
+    <xs:sequence>
+      <xs:element name="CNPJ" type="CNPJType"/>
+      <xs:element name="xLgr" type="xLgrType"/>
+      <xs:element name="nro" type="nroType"/>
+      <xs:element name="xCpl" type="xCplType"/>
+      <xs:element name="xBairro" type="xBairroType"/>
+      <xs:element name="cMun" type="cMunType"/>
+      <xs:element name="xMun" type="xMunType"/>
+      <xs:element name="UF" type="UFType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CNPJ" type="CNPJType"/>
+  <xs:simpleType name="CNPJType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xLgr" type="xLgrType"/>
+  <xs:simpleType name="xLgrType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="nro" type="nroType"/>
+  <xs:simpleType name="nroType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xCpl" type="xCplType"/>
+  <xs:simpleType name="xCplType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xBairro" type="xBairroType"/>
+  <xs:simpleType name="xBairroType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cMun" type="cMunType"/>
+  <xs:simpleType name="cMunType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xMun" type="xMunType"/>
+  <xs:simpleType name="xMunType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="UF" type="UFType"/>
+  <xs:simpleType name="UFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="det" type="detType"/>
+  <xs:complexType name="detType">
+    <xs:sequence>
+      <xs:element name="prod" type="prodType"/>
+      <xs:element name="imposto" type="impostoType"/>
+    </xs:sequence>
+    <xs:attribute name="nItem" type="xs:string"/>
+  </xs:complexType>
+  <xs:element name="prod" type="prodType"/>
+  <xs:complexType name="prodType">
+    <xs:sequence>
+      <xs:element name="cProd" type="cProdType"/>
+      <xs:element name="cEAN" type="cEANType"/>
+      <xs:element name="xProd" type="xProdType"/>
+      <xs:element name="CFOP" type="CFOPType"/>
+      <xs:element name="uCom" type="uComType"/>
+      <xs:element name="qCom" type="qComType"/>
+      <xs:element name="vUnCom" type="vUnComType"/>
+      <xs:element name="vProd" type="vProdType"/>
+      <xs:element name="cEANTrib" type="cEANTribType"/>
+      <xs:element name="uTrib" type="uTribType"/>
+      <xs:element name="qTrib" type="qTribType"/>
+      <xs:element name="vUnTrib" type="vUnTribType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="cProd" type="cProdType"/>
+  <xs:simpleType name="cProdType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cEAN" type="cEANType"/>
+  <xs:simpleType name="cEANType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xProd" type="xProdType"/>
+  <xs:simpleType name="xProdType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="CFOP" type="CFOPType"/>
+  <xs:simpleType name="CFOPType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="uCom" type="uComType"/>
+  <xs:simpleType name="uComType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="qCom" type="qComType"/>
+  <xs:simpleType name="qComType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vUnCom" type="vUnComType"/>
+  <xs:simpleType name="vUnComType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vProd" type="vProdType"/>
+  <xs:simpleType name="vProdType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="cEANTrib" type="cEANTribType"/>
+  <xs:simpleType name="cEANTribType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="uTrib" type="uTribType"/>
+  <xs:simpleType name="uTribType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="qTrib" type="qTribType"/>
+  <xs:simpleType name="qTribType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vUnTrib" type="vUnTribType"/>
+  <xs:simpleType name="vUnTribType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="imposto" type="impostoType"/>
+  <xs:complexType name="impostoType">
+    <xs:sequence>
+      <xs:element name="ICMS" type="ICMSType"/>
+      <xs:element name="PIS" type="PISType"/>
+      <xs:element name="COFINS" type="COFINSType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ICMS" type="ICMSType"/>
+  <xs:complexType name="ICMSType">
+    <xs:sequence>
+      <xs:element name="ICMS00" type="ICMS00Type"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ICMS00" type="ICMS00Type"/>
+  <xs:complexType name="ICMS00Type">
+    <xs:sequence>
+      <xs:element name="orig" type="origType"/>
+      <xs:element name="CST" type="CSTType"/>
+      <xs:element name="modBC" type="modBCType"/>
+      <xs:element name="vBC" type="vBCType"/>
+      <xs:element name="pICMS" type="pICMSType"/>
+      <xs:element name="vICMS" type="vICMSType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="orig" type="origType"/>
+  <xs:simpleType name="origType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="CST" type="CSTType"/>
+  <xs:simpleType name="CSTType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="modBC" type="modBCType"/>
+  <xs:simpleType name="modBCType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vBC" type="vBCType"/>
+  <xs:simpleType name="vBCType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="pICMS" type="pICMSType"/>
+  <xs:simpleType name="pICMSType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vICMS" type="vICMSType"/>
+  <xs:simpleType name="vICMSType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="PIS" type="PISType"/>
+  <xs:complexType name="PISType">
+    <xs:sequence>
+      <xs:element name="PISAliq" type="PISAliqType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="PISAliq" type="PISAliqType"/>
+  <xs:complexType name="PISAliqType">
+    <xs:sequence>
+      <xs:element name="CST" type="CSTType"/>
+      <xs:element name="vBC" type="vBCType"/>
+      <xs:element name="pPIS" type="pPISType"/>
+      <xs:element name="vPIS" type="vPISType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CST" type="CSTType"/>
+  <xs:simpleType name="CSTType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vBC" type="vBCType"/>
+  <xs:simpleType name="vBCType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="pPIS" type="pPISType"/>
+  <xs:simpleType name="pPISType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vPIS" type="vPISType"/>
+  <xs:simpleType name="vPISType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="COFINS" type="COFINSType"/>
+  <xs:complexType name="COFINSType">
+    <xs:sequence>
+      <xs:element name="COFINSAliq" type="COFINSAliqType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="COFINSAliq" type="COFINSAliqType"/>
+  <xs:complexType name="COFINSAliqType">
+    <xs:sequence>
+      <xs:element name="CST" type="CSTType"/>
+      <xs:element name="vBC" type="vBCType"/>
+      <xs:element name="pCOFINS" type="pCOFINSType"/>
+      <xs:element name="vCOFINS" type="vCOFINSType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CST" type="CSTType"/>
+  <xs:simpleType name="CSTType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vBC" type="vBCType"/>
+  <xs:simpleType name="vBCType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="pCOFINS" type="pCOFINSType"/>
+  <xs:simpleType name="pCOFINSType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vCOFINS" type="vCOFINSType"/>
+  <xs:simpleType name="vCOFINSType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="total" type="totalType"/>
+  <xs:complexType name="totalType">
+    <xs:sequence>
+      <xs:element name="ICMSTot" type="ICMSTotType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ICMSTot" type="ICMSTotType"/>
+  <xs:complexType name="ICMSTotType">
+    <xs:sequence>
+      <xs:element name="vBC" type="vBCType"/>
+      <xs:element name="vICMS" type="vICMSType"/>
+      <xs:element name="vBCST" type="vBCSTType"/>
+      <xs:element name="vST" type="vSTType"/>
+      <xs:element name="vProd" type="vProdType"/>
+      <xs:element name="vFrete" type="vFreteType"/>
+      <xs:element name="vSeg" type="vSegType"/>
+      <xs:element name="vDesc" type="vDescType"/>
+      <xs:element name="vII" type="vIIType"/>
+      <xs:element name="vIPI" type="vIPIType"/>
+      <xs:element name="vPIS" type="vPISType"/>
+      <xs:element name="vCOFINS" type="vCOFINSType"/>
+      <xs:element name="vOutro" type="vOutroType"/>
+      <xs:element name="vNF" type="vNFType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="vBC" type="vBCType"/>
+  <xs:simpleType name="vBCType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vICMS" type="vICMSType"/>
+  <xs:simpleType name="vICMSType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vBCST" type="vBCSTType"/>
+  <xs:simpleType name="vBCSTType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vST" type="vSTType"/>
+  <xs:simpleType name="vSTType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vProd" type="vProdType"/>
+  <xs:simpleType name="vProdType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vFrete" type="vFreteType"/>
+  <xs:simpleType name="vFreteType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vSeg" type="vSegType"/>
+  <xs:simpleType name="vSegType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vDesc" type="vDescType"/>
+  <xs:simpleType name="vDescType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vII" type="vIIType"/>
+  <xs:simpleType name="vIIType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vIPI" type="vIPIType"/>
+  <xs:simpleType name="vIPIType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vPIS" type="vPISType"/>
+  <xs:simpleType name="vPISType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vCOFINS" type="vCOFINSType"/>
+  <xs:simpleType name="vCOFINSType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vOutro" type="vOutroType"/>
+  <xs:simpleType name="vOutroType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vNF" type="vNFType"/>
+  <xs:simpleType name="vNFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="transp" type="transpType"/>
+  <xs:complexType name="transpType">
+    <xs:sequence>
+      <xs:element name="modFrete" type="modFreteType"/>
+      <xs:element name="transporta" type="transportaType"/>
+      <xs:element name="veicTransp" type="veicTranspType"/>
+      <xs:element name="reboque" type="reboqueType"/>
+      <xs:element name="vol" type="volType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="modFrete" type="modFreteType"/>
+  <xs:simpleType name="modFreteType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="transporta" type="transportaType"/>
+  <xs:complexType name="transportaType">
+    <xs:sequence>
+      <xs:element name="CNPJ" type="CNPJType"/>
+      <xs:element name="xNome" type="xNomeType"/>
+      <xs:element name="IE" type="IEType"/>
+      <xs:element name="xEnder" type="xEnderType"/>
+      <xs:element name="xMun" type="xMunType"/>
+      <xs:element name="UF" type="UFType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="CNPJ" type="CNPJType"/>
+  <xs:simpleType name="CNPJType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xNome" type="xNomeType"/>
+  <xs:simpleType name="xNomeType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="IE" type="IEType"/>
+  <xs:simpleType name="IEType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xEnder" type="xEnderType"/>
+  <xs:simpleType name="xEnderType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="xMun" type="xMunType"/>
+  <xs:simpleType name="xMunType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="UF" type="UFType"/>
+  <xs:simpleType name="UFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="veicTransp" type="veicTranspType"/>
+  <xs:complexType name="veicTranspType">
+    <xs:sequence>
+      <xs:element name="placa" type="placaType"/>
+      <xs:element name="UF" type="UFType"/>
+      <xs:element name="RNTC" type="RNTCType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="placa" type="placaType"/>
+  <xs:simpleType name="placaType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="UF" type="UFType"/>
+  <xs:simpleType name="UFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="RNTC" type="RNTCType"/>
+  <xs:simpleType name="RNTCType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="reboque" type="reboqueType"/>
+  <xs:complexType name="reboqueType">
+    <xs:sequence>
+      <xs:element name="placa" type="placaType"/>
+      <xs:element name="UF" type="UFType"/>
+      <xs:element name="RNTC" type="RNTCType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="placa" type="placaType"/>
+  <xs:simpleType name="placaType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="UF" type="UFType"/>
+  <xs:simpleType name="UFType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="RNTC" type="RNTCType"/>
+  <xs:simpleType name="RNTCType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="vol" type="volType"/>
+  <xs:complexType name="volType">
+    <xs:sequence>
+      <xs:element name="qVol" type="qVolType"/>
+      <xs:element name="esp" type="espType"/>
+      <xs:element name="marca" type="marcaType"/>
+      <xs:element name="nVol" type="nVolType"/>
+      <xs:element name="pesoL" type="pesoLType"/>
+      <xs:element name="pesoB" type="pesoBType"/>
+      <xs:element name="lacres" type="lacresType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="qVol" type="qVolType"/>
+  <xs:simpleType name="qVolType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="esp" type="espType"/>
+  <xs:simpleType name="espType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="marca" type="marcaType"/>
+  <xs:simpleType name="marcaType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="nVol" type="nVolType"/>
+  <xs:simpleType name="nVolType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="pesoL" type="pesoLType"/>
+  <xs:simpleType name="pesoLType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="pesoB" type="pesoBType"/>
+  <xs:simpleType name="pesoBType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="lacres" type="lacresType"/>
+  <xs:complexType name="lacresType">
+    <xs:sequence>
+      <xs:element name="nLacre" type="nLacreType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="nLacre" type="nLacreType"/>
+  <xs:simpleType name="nLacreType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+  <xs:element name="infAdic" type="infAdicType"/>
+  <xs:complexType name="infAdicType">
+    <xs:sequence>
+      <xs:element name="infAdFisco" type="infAdFiscoType"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="infAdFisco" type="infAdFiscoType"/>
+  <xs:simpleType name="infAdFiscoType">
+    <xs:restriction base="xs:string"/>
+  </xs:simpleType>
+</xs:schema>]]></XmlSchema><CdsSkeleton/><XslTransform/><Skeleton><![CDATA[<?xml version="1.0"?><DATAPACKET Version="2.0"><METADATA><FIELDS><FIELD attrname="Id" fieldtype="string" WIDTH="47"/><FIELD attrname="versao" fieldtype="string" WIDTH="4"/><FIELD attrname="cUF" fieldtype="string" WIDTH="2"/><FIELD attrname="cNF" fieldtype="string" WIDTH="9"/><FIELD attrname="natOp" fieldtype="string" WIDTH="13"/><FIELD attrname="indPag" fieldtype="string" WIDTH="1"/><FIELD attrname="mod" fieldtype="string" WIDTH="2"/><FIELD attrname="serie" fieldtype="string" WIDTH="1"/><FIELD attrname="nNF" fieldtype="string" WIDTH="1"/><FIELD attrname="dEmi" fieldtype="string" WIDTH="10"/><FIELD attrname="dSaiEnt" fieldtype="string" WIDTH="10"/><FIELD attrname="tpNF" fieldtype="string" WIDTH="1"/><FIELD attrname="cMunFG" fieldtype="string" WIDTH="7"/><FIELD attrname="tpImp" fieldtype="string" WIDTH="1"/><FIELD attrname="tpEmis" fieldtype="string" WIDTH="1"/><FIELD attrname="cDV" fieldtype="string" WIDTH="1"/><FIELD attrname="tpAmb" fieldtype="string" WIDTH="1"/><FIELD attrname="finNFe" fieldtype="string" WIDTH="1"/><FIELD attrname="procEmi" fieldtype="string" WIDTH="1"/><FIELD attrname="verProc" fieldtype="string" WIDTH="17"/><FIELD attrname="emit_CNPJ" fieldtype="string" WIDTH="14"/><FIELD attrname="emit_xNome" fieldtype="string" WIDTH="20"/><FIELD attrname="xFant" fieldtype="string" WIDTH="4"/><FIELD attrname="enderEmit_xLgr" fieldtype="string" WIDTH="11"/><FIELD attrname="enderEmit_nro" fieldtype="string" WIDTH="3"/><FIELD attrname="enderEmit_xCpl" fieldtype="string" WIDTH="6"/><FIELD attrname="enderEmit_xBairro" fieldtype="string" WIDTH="19"/><FIELD attrname="enderEmit_cMun" fieldtype="string" WIDTH="7"/><FIELD attrname="enderEmit_xMun" fieldtype="string" WIDTH="8"/><FIELD attrname="enderEmit_UF" fieldtype="string" WIDTH="2"/><FIELD attrname="enderEmit_CEP" fieldtype="string" WIDTH="8"/><FIELD attrname="enderEmit_cPais" fieldtype="string" WIDTH="4"/><FIELD attrname="enderEmit_xPais" fieldtype="string" WIDTH="6"/><FIELD attrname="enderEmit_fone" fieldtype="string" WIDTH="10"/><FIELD attrname="emit_IE" fieldtype="string" WIDTH="12"/><FIELD attrname="dest_CNPJ" fieldtype="string" WIDTH="14"/><FIELD attrname="dest_xNome" fieldtype="string" WIDTH="20"/><FIELD attrname="enderDest_xLgr" fieldtype="string" WIDTH="11"/><FIELD attrname="enderDest_nro" fieldtype="string" WIDTH="3"/><FIELD attrname="enderDest_xCpl" fieldtype="string" WIDTH="6"/><FIELD attrname="enderDest_xBairro" fieldtype="string" WIDTH="19"/><FIELD attrname="enderDest_cMun" fieldtype="string" WIDTH="7"/><FIELD attrname="enderDest_xMun" fieldtype="string" WIDTH="8"/><FIELD attrname="enderDest_UF" fieldtype="string" WIDTH="2"/><FIELD attrname="enderDest_CEP" fieldtype="string" WIDTH="8"/><FIELD attrname="enderDest_cPais" fieldtype="string" WIDTH="4"/><FIELD attrname="enderDest_xPais" fieldtype="string" WIDTH="6"/><FIELD attrname="enderDest_fone" fieldtype="string" WIDTH="10"/><FIELD attrname="dest_IE" fieldtype="string" WIDTH="12"/><FIELD attrname="retirada_CNPJ" fieldtype="string" WIDTH="14"/><FIELD attrname="retirada_xLgr" fieldtype="string" WIDTH="11"/><FIELD attrname="retirada_nro" fieldtype="string" WIDTH="3"/><FIELD attrname="retirada_xCpl" fieldtype="string" WIDTH="6"/><FIELD attrname="retirada_xBairro" fieldtype="string" WIDTH="19"/><FIELD attrname="retirada_cMun" fieldtype="string" WIDTH="7"/><FIELD attrname="retirada_xMun" fieldtype="string" WIDTH="8"/><FIELD attrname="retirada_UF" fieldtype="string" WIDTH="2"/><FIELD attrname="entrega_CNPJ" fieldtype="string" WIDTH="14"/><FIELD attrname="entrega_xLgr" fieldtype="string" WIDTH="11"/><FIELD attrname="entrega_nro" fieldtype="string" WIDTH="3"/><FIELD attrname="entrega_xCpl" fieldtype="string" WIDTH="6"/><FIELD attrname="entrega_xBairro" fieldtype="string" WIDTH="19"/><FIELD attrname="entrega_cMun" fieldtype="string" WIDTH="7"/><FIELD attrname="entrega_xMun" fieldtype="string" WIDTH="8"/><FIELD attrname="entrega_UF" fieldtype="string" WIDTH="2"/><FIELD attrname="vBC" fieldtype="string" WIDTH="11"/><FIELD attrname="vICMS" fieldtype="string" WIDTH="10"/><FIELD attrname="vBCST" fieldtype="string" WIDTH="1"/><FIELD attrname="vST" fieldtype="string" WIDTH="1"/><FIELD attrname="vProd" fieldtype="string" WIDTH="11"/><FIELD attrname="vFrete" fieldtype="string" WIDTH="1"/><FIELD attrname="vSeg" fieldtype="string" WIDTH="1"/><FIELD attrname="vDesc" fieldtype="string" WIDTH="1"/><FIELD attrname="vII" fieldtype="string" WIDTH="1"/><FIELD attrname="vIPI" fieldtype="string" WIDTH="1"/><FIELD attrname="vPIS" fieldtype="string" WIDTH="5"/><FIELD attrname="vCOFINS" fieldtype="string" WIDTH="9"/><FIELD attrname="vOutro" fieldtype="string" WIDTH="1"/><FIELD attrname="vNF" fieldtype="string" WIDTH="11"/><FIELD attrname="modFrete" fieldtype="string" WIDTH="1"/><FIELD attrname="CNPJ" fieldtype="string" WIDTH="14"/><FIELD attrname="xNome" fieldtype="string" WIDTH="20"/><FIELD attrname="IE" fieldtype="string" WIDTH="12"/><FIELD attrname="xEnder" fieldtype="string" WIDTH="46"/><FIELD attrname="transporta_xMun" fieldtype="string" WIDTH="8"/><FIELD attrname="transporta_UF" fieldtype="string" WIDTH="2"/><FIELD attrname="veicTransp_placa" fieldtype="string" WIDTH="7"/><FIELD attrname="veicTransp_UF" fieldtype="string" WIDTH="2"/><FIELD attrname="veicTransp_RNTC" fieldtype="string" WIDTH="9"/><FIELD attrname="reboque_placa" fieldtype="string" WIDTH="7"/><FIELD attrname="reboque_UF" fieldtype="string" WIDTH="2"/><FIELD attrname="reboque_RNTC" fieldtype="string" WIDTH="9"/><FIELD attrname="qVol" fieldtype="string" WIDTH="5"/><FIELD attrname="esp" fieldtype="string" WIDTH="5"/><FIELD attrname="marca" fieldtype="string" WIDTH="7"/><FIELD attrname="nVol" fieldtype="string" WIDTH="3"/><FIELD attrname="pesoL" fieldtype="string" WIDTH="14"/><FIELD attrname="pesoB" fieldtype="string" WIDTH="14"/><FIELD attrname="nLacre" fieldtype="string" WIDTH="11"/><FIELD attrname="infAdFisco" fieldtype="string" WIDTH="40"/><FIELD attrname="det" fieldtype="nested"><FIELDS><FIELD attrname="nItem" fieldtype="string" WIDTH="1"/><FIELD attrname="cProd" fieldtype="string" WIDTH="5"/><FIELD attrname="cEAN" fieldtype="string" WIDTH="32"/><FIELD attrname="xProd" fieldtype="string" WIDTH="12"/><FIELD attrname="CFOP" fieldtype="string" WIDTH="4"/><FIELD attrname="uCom" fieldtype="string" WIDTH="4"/><FIELD attrname="qCom" fieldtype="string" WIDTH="12"/><FIELD attrname="vUnCom" fieldtype="string" WIDTH="1"/><FIELD attrname="vProd" fieldtype="string" WIDTH="11"/><FIELD attrname="cEANTrib" fieldtype="string" WIDTH="32"/><FIELD attrname="uTrib" fieldtype="string" WIDTH="3"/><FIELD attrname="qTrib" fieldtype="string" WIDTH="13"/><FIELD attrname="vUnTrib" fieldtype="string" WIDTH="6"/><FIELD attrname="orig" fieldtype="string" WIDTH="1"/><FIELD attrname="ICMS00_CST" fieldtype="string" WIDTH="2"/><FIELD attrname="modBC" fieldtype="string" WIDTH="1"/><FIELD attrname="ICMS00_vBC" fieldtype="string" WIDTH="11"/><FIELD attrname="pICMS" fieldtype="string" WIDTH="5"/><FIELD attrname="vICMS" fieldtype="string" WIDTH="10"/><FIELD attrname="PISAliq_CST" fieldtype="string" WIDTH="2"/><FIELD attrname="PISAliq_vBC" fieldtype="string" WIDTH="11"/><FIELD attrname="pPIS" fieldtype="string" WIDTH="4"/><FIELD attrname="vPIS" fieldtype="string" WIDTH="5"/><FIELD attrname="COFINSAliq_CST" fieldtype="string" WIDTH="2"/><FIELD attrname="COFINSAliq_vBC" fieldtype="string" WIDTH="11"/><FIELD attrname="pCOFINS" fieldtype="string" WIDTH="4"/><FIELD attrname="vCOFINS" fieldtype="string" WIDTH="9"/></FIELDS><PARAMS/></FIELD></FIELDS><PARAMS/></METADATA><ROWDATA/><METADATA><FIELDS><FIELD attrname="Id" fieldtype="string" WIDTH="47"/><FIELD attrname="versao" fieldtype="string" WIDTH="4"/><FIELD attrname="cUF" fieldtype="string" WIDTH="2"/><FIELD attrname="cNF" fieldtype="string" WIDTH="9"/><FIELD attrname="natOp" fieldtype="string" WIDTH="13"/><FIELD attrname="indPag" fieldtype="string" WIDTH="1"/><FIELD attrname="mod" fieldtype="string" WIDTH="2"/><FIELD attrname="serie" fieldtype="string" WIDTH="1"/><FIELD attrname="nNF" fieldtype="string" WIDTH="1"/><FIELD attrname="dEmi" fieldtype="string" WIDTH="10"/><FIELD attrname="dSaiEnt" fieldtype="string" WIDTH="10"/><FIELD attrname="tpNF" fieldtype="string" WIDTH="1"/><FIELD attrname="cMunFG" fieldtype="string" WIDTH="7"/><FIELD attrname="tpImp" fieldtype="string" WIDTH="1"/><FIELD attrname="tpEmis" fieldtype="string" WIDTH="1"/><FIELD attrname="cDV" fieldtype="string" WIDTH="1"/><FIELD attrname="tpAmb" fieldtype="string" WIDTH="1"/><FIELD attrname="finNFe" fieldtype="string" WIDTH="1"/><FIELD attrname="procEmi" fieldtype="string" WIDTH="1"/><FIELD attrname="verProc" fieldtype="string" WIDTH="17"/><FIELD attrname="emit_CNPJ" fieldtype="string" WIDTH="14"/><FIELD attrname="emit_xNome" fieldtype="string" WIDTH="20"/><FIELD attrname="xFant" fieldtype="string" WIDTH="4"/><FIELD attrname="enderEmit_xLgr" fieldtype="string" WIDTH="11"/><FIELD attrname="enderEmit_nro" fieldtype="string" WIDTH="3"/><FIELD attrname="enderEmit_xCpl" fieldtype="string" WIDTH="6"/><FIELD attrname="enderEmit_xBairro" fieldtype="string" WIDTH="19"/><FIELD attrname="enderEmit_cMun" fieldtype="string" WIDTH="7"/><FIELD attrname="enderEmit_xMun" fieldtype="string" WIDTH="8"/><FIELD attrname="enderEmit_UF" fieldtype="string" WIDTH="2"/><FIELD attrname="enderEmit_CEP" fieldtype="string" WIDTH="8"/><FIELD attrname="enderEmit_cPais" fieldtype="string" WIDTH="4"/><FIELD attrname="enderEmit_xPais" fieldtype="string" WIDTH="6"/><FIELD attrname="enderEmit_fone" fieldtype="string" WIDTH="10"/><FIELD attrname="emit_IE" fieldtype="string" WIDTH="12"/><FIELD attrname="dest_CNPJ" fieldtype="string" WIDTH="14"/><FIELD attrname="dest_xNome" fieldtype="string" WIDTH="20"/><FIELD attrname="enderDest_xLgr" fieldtype="string" WIDTH="11"/><FIELD attrname="enderDest_nro" fieldtype="string" WIDTH="3"/><FIELD attrname="enderDest_xCpl" fieldtype="string" WIDTH="6"/><FIELD attrname="enderDest_xBairro" fieldtype="string" WIDTH="19"/><FIELD attrname="enderDest_cMun" fieldtype="string" WIDTH="7"/><FIELD attrname="enderDest_xMun" fieldtype="string" WIDTH="8"/><FIELD attrname="enderDest_UF" fieldtype="string" WIDTH="2"/><FIELD attrname="enderDest_CEP" fieldtype="string" WIDTH="8"/><FIELD attrname="enderDest_cPais" fieldtype="string" WIDTH="4"/><FIELD attrname="enderDest_xPais" fieldtype="string" WIDTH="6"/><FIELD attrname="enderDest_fone" fieldtype="string" WIDTH="10"/><FIELD attrname="dest_IE" fieldtype="string" WIDTH="12"/><FIELD attrname="retirada_CNPJ" fieldtype="string" WIDTH="14"/><FIELD attrname="retirada_xLgr" fieldtype="string" WIDTH="11"/><FIELD attrname="retirada_nro" fieldtype="string" WIDTH="3"/><FIELD attrname="retirada_xCpl" fieldtype="string" WIDTH="6"/><FIELD attrname="retirada_xBairro" fieldtype="string" WIDTH="19"/><FIELD attrname="retirada_cMun" fieldtype="string" WIDTH="7"/><FIELD attrname="retirada_xMun" fieldtype="string" WIDTH="8"/><FIELD attrname="retirada_UF" fieldtype="string" WIDTH="2"/><FIELD attrname="entrega_CNPJ" fieldtype="string" WIDTH="14"/><FIELD attrname="entrega_xLgr" fieldtype="string" WIDTH="11"/><FIELD attrname="entrega_nro" fieldtype="string" WIDTH="3"/><FIELD attrname="entrega_xCpl" fieldtype="string" WIDTH="6"/><FIELD attrname="entrega_xBairro" fieldtype="string" WIDTH="19"/><FIELD attrname="entrega_cMun" fieldtype="string" WIDTH="7"/><FIELD attrname="entrega_xMun" fieldtype="string" WIDTH="8"/><FIELD attrname="entrega_UF" fieldtype="string" WIDTH="2"/><FIELD attrname="vBC" fieldtype="string" WIDTH="11"/><FIELD attrname="vICMS" fieldtype="string" WIDTH="10"/><FIELD attrname="vBCST" fieldtype="string" WIDTH="1"/><FIELD attrname="vST" fieldtype="string" WIDTH="1"/><FIELD attrname="vProd" fieldtype="string" WIDTH="11"/><FIELD attrname="vFrete" fieldtype="string" WIDTH="1"/><FIELD attrname="vSeg" fieldtype="string" WIDTH="1"/><FIELD attrname="vDesc" fieldtype="string" WIDTH="1"/><FIELD attrname="vII" fieldtype="string" WIDTH="1"/><FIELD attrname="vIPI" fieldtype="string" WIDTH="1"/><FIELD attrname="vPIS" fieldtype="string" WIDTH="5"/><FIELD attrname="vCOFINS" fieldtype="string" WIDTH="9"/><FIELD attrname="vOutro" fieldtype="string" WIDTH="1"/><FIELD attrname="vNF" fieldtype="string" WIDTH="11"/><FIELD attrname="modFrete" fieldtype="string" WIDTH="1"/><FIELD attrname="CNPJ" fieldtype="string" WIDTH="14"/><FIELD attrname="xNome" fieldtype="string" WIDTH="20"/><FIELD attrname="IE" fieldtype="string" WIDTH="12"/><FIELD attrname="xEnder" fieldtype="string" WIDTH="46"/><FIELD attrname="transporta_xMun" fieldtype="string" WIDTH="8"/><FIELD attrname="transporta_UF" fieldtype="string" WIDTH="2"/><FIELD attrname="veicTransp_placa" fieldtype="string" WIDTH="7"/><FIELD attrname="veicTransp_UF" fieldtype="string" WIDTH="2"/><FIELD attrname="veicTransp_RNTC" fieldtype="string" WIDTH="9"/><FIELD attrname="reboque_placa" fieldtype="string" WIDTH="7"/><FIELD attrname="reboque_UF" fieldtype="string" WIDTH="2"/><FIELD attrname="reboque_RNTC" fieldtype="string" WIDTH="9"/><FIELD attrname="qVol" fieldtype="string" WIDTH="5"/><FIELD attrname="esp" fieldtype="string" WIDTH="5"/><FIELD attrname="marca" fieldtype="string" WIDTH="7"/><FIELD attrname="nVol" fieldtype="string" WIDTH="3"/><FIELD attrname="pesoL" fieldtype="string" WIDTH="14"/><FIELD attrname="pesoB" fieldtype="string" WIDTH="14"/><FIELD attrname="nLacre" fieldtype="string" WIDTH="11"/><FIELD attrname="infAdFisco" fieldtype="string" WIDTH="40"/><FIELD attrname="det" fieldtype="nested"><FIELDS><FIELD attrname="nItem" fieldtype="string" WIDTH="1"/><FIELD attrname="cProd" fieldtype="string" WIDTH="5"/><FIELD attrname="cEAN" fieldtype="string" WIDTH="32"/><FIELD attrname="xProd" fieldtype="string" WIDTH="12"/><FIELD attrname="CFOP" fieldtype="string" WIDTH="4"/><FIELD attrname="uCom" fieldtype="string" WIDTH="4"/><FIELD attrname="qCom" fieldtype="string" WIDTH="12"/><FIELD attrname="vUnCom" fieldtype="string" WIDTH="1"/><FIELD attrname="vProd" fieldtype="string" WIDTH="11"/><FIELD attrname="cEANTrib" fieldtype="string" WIDTH="32"/><FIELD attrname="uTrib" fieldtype="string" WIDTH="3"/><FIELD attrname="qTrib" fieldtype="string" WIDTH="13"/><FIELD attrname="vUnTrib" fieldtype="string" WIDTH="6"/><FIELD attrname="orig" fieldtype="string" WIDTH="1"/><FIELD attrname="ICMS00_CST" fieldtype="string" WIDTH="2"/><FIELD attrname="modBC" fieldtype="string" WIDTH="1"/><FIELD attrname="ICMS00_vBC" fieldtype="string" WIDTH="11"/><FIELD attrname="pICMS" fieldtype="string" WIDTH="5"/><FIELD attrname="vICMS" fieldtype="string" WIDTH="10"/><FIELD attrname="PISAliq_CST" fieldtype="string" WIDTH="2"/><FIELD attrname="PISAliq_vBC" fieldtype="string" WIDTH="11"/><FIELD attrname="pPIS" fieldtype="string" WIDTH="4"/><FIELD attrname="vPIS" fieldtype="string" WIDTH="5"/><FIELD attrname="COFINSAliq_CST" fieldtype="string" WIDTH="2"/><FIELD attrname="COFINSAliq_vBC" fieldtype="string" WIDTH="11"/><FIELD attrname="pCOFINS" fieldtype="string" WIDTH="4"/><FIELD attrname="vCOFINS" fieldtype="string" WIDTH="9"/></FIELDS><PARAMS/></FIELD></FIELDS><PARAMS/></METADATA><ROWDATA/></DATAPACKET>
+]]></Skeleton></XmlTransformation>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013/04/28 14:07:48.779.pas,C:\Projetos\ERP_Delphi\NFe\Controller\TributOperacaoFiscalController.pas=</Transaction>
+    <Transaction>2013/04/28 14:20:28.598.pas,C:\Projetos\ERP_Delphi\NFe\Infra\ConexaoBD.pas=</Transaction>
+    <Transaction>2013/05/04 12:58:58.910.pas,C:\Projetos\ERP_Delphi\NFe\Controller\AlmoxarifadoController.pas=</Transaction>
+    <Transaction>2013/05/04 12:59:26.878.pas,C:\Projetos\ERP_Delphi\NFe\Controller\NcmController.pas=</Transaction>
+    <Transaction>2013/05/04 13:00:00.226.pas,C:\Projetos\ERP_Delphi\NFe\Controller\ProdutoMarcaController.pas=</Transaction>
+    <Transaction>2013/05/04 13:00:51.634.pas,C:\Projetos\ERP_Delphi\NFe\Controller\ProdutoSubGrupoController.pas=</Transaction>
+    <Transaction>2013/05/04 13:02:03.904.pas,C:\Projetos\ERP_Delphi\NFe\Controller\VendaDetalheController.pas=</Transaction>
+    <Transaction>2013/05/04 13:03:18.856.pas,C:\Projetos\ERP_Delphi\NFe\Controller\UnidadeProdutoController.pas=</Transaction>
+    <Transaction>2013/05/04 13:04:10.225.pas,C:\Projetos\ERP_Delphi\NFe\Controller\TributIcmsCustomCabController.pas=</Transaction>
+    <Transaction>2013/05/04 13:04:34.480.pas,C:\Projetos\ERP_Delphi\NFe\Controller\TributGrupoTributarioController.pas=</Transaction>
+    <Transaction>2013/05/04 13:06:12.048.pas,C:\Projetos\ERP_Delphi\NFe\Controller\NfeDetalheController.pas=</Transaction>
+    <Transaction>2013/05/04 14:28:51.752.pas,C:\Projetos\ERP_Delphi\Comum\Controller\PapelController.pas=</Transaction>
+    <Transaction>2013/05/04 14:29:19.053.pas,C:\Projetos\ERP_Delphi\Comum\Controller\PapelFuncaoController.pas=</Transaction>
+    <Transaction>2013/05/12 14:55:31.778.pas,C:\Projetos\ERP_Delphi\Comum\VO\JSonVO.pas=</Transaction>
+    <Transaction>2013/06/01 16:44:02.534.pas,C:\Projetos\ERP_Delphi\NFe\Controller\VendaCabecalhoController.pas=</Transaction>
+    <Transaction>2013/06/02 12:05:04.136.pas,C:\Projetos\ERP_Delphi\Comum\VO\AgenciaBancoVO.pas=</Transaction>
+    <Transaction>2013/06/02 12:05:09.053.pas,C:\Projetos\ERP_Delphi\Comum\VO\BancoVO.pas=</Transaction>
+    <Transaction>2013/06/02 12:07:11.979.pas,C:\Projetos\ERP_Delphi\Comum\VO\ContaCaixaVO.pas=</Transaction>
+    <Transaction>2013/06/02 12:07:12.019.pas,C:\Projetos\ERP_Delphi\Comum\VO\ContabilContaVO.pas=</Transaction>
+    <Transaction>2013/06/02 12:08:24.608.pas,C:\Projetos\ERP_Delphi\Comum\VO\SindicatoVO.pas=</Transaction>
+    <Transaction>2013/06/02 12:08:24.618.pas,C:\Projetos\ERP_Delphi\Comum\VO\ResponsavelSocioVO.pas=</Transaction>
+    <Transaction>2013/06/02 12:08:24.638.pas,C:\Projetos\ERP_Delphi\Comum\VO\ProdutoLacreVO.pas=</Transaction>
+    <Transaction>2013/06/02 12:08:24.658.pas,C:\Projetos\ERP_Delphi\Comum\VO\FpasVO.pas=</Transaction>
+    <Transaction>2013/06/02 12:12:33.844.pas,C:\Projetos\ERP_Delphi\Comum\VO\VendaComissaoVO.pas=</Transaction>
+    <Transaction>2013/06/02 12:20:49.594.pas,C:\Projetos\ERP_Delphi\Comum\VO\VendaRomaneioEntregaVO.pas=</Transaction>
+    <Transaction>2013/06/02 12:20:49.604.pas,C:\Projetos\ERP_Delphi\Comum\VO\VendaOrcamentoDetalheVO.pas=</Transaction>
+    <Transaction>2013/06/02 12:20:49.624.pas,C:\Projetos\ERP_Delphi\Comum\VO\VendaOrcamentoCabecalhoVO.pas=</Transaction>
+    <Transaction>2013/06/02 12:20:49.644.pas,C:\Projetos\ERP_Delphi\Comum\VO\VendaFreteVO.pas=</Transaction>
+    <Transaction>2013/06/02 12:20:49.654.pas,C:\Projetos\ERP_Delphi\Comum\VO\VendaCondicoesParcelasVO.pas=</Transaction>
+    <Transaction>2013/06/02 12:20:49.674.pas,C:\Projetos\ERP_Delphi\Comum\VO\VendaCondicoesPagamentoVO.pas=</Transaction>
+    <Transaction>2013/06/02 12:25:08.385.pas,C:\Projetos\ERP_Delphi\Comum\VO\TipoNotaFiscalVO.pas=</Transaction>
+  </Transactions>
+</BorlandProject>
